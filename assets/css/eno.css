@@ -1,0 +1,189 @@
+body{	
+	background-image:url(../images/bakg.png);
+}
+.contaut{
+	margin-top: 15px;
+	border:3px solid #03F;
+	padding:0;
+	-webkit-border-top-left-radius:15px;
+		-webkit-border-top-right-radius:15px;
+	-moz-border-top-left-radius:15px;
+	-moz-border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	width: 1200px;
+	margin:20px auto 5px;
+
+}
+.imgheader{
+		-webkit-border-top-left-radius:15px;
+		-webkit-border-top-right-radius:15px;
+	-moz-border-top-left-radius:15px;
+	-moz-border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+
+.margin-atas{
+	margin-top: 5px;
+}
+
+
+.gambar-menu{
+
+	background-image:url(../images/br4.gif);
+	height:36px;
+}
+
+.menu-samping{
+	width:277px;
+	box-sizing: border-box;
+	margin-bottom: 13px;
+}
+
+.border-atas-samping{
+	border-top: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+
+}
+
+.border-bawah-samping{
+	border-bottom: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+
+}
+
+.border-atas-tengah{
+	border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+
+}
+
+.border-bawah-tengah{
+	border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+
+}
+
+.judul-menu{
+
+	color: white;
+	padding-top: 6px;
+	padding-left:30px;
+}
+.footer{
+	background-color: #2a2e3f;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	padding-top :15px;
+}
+.footer a{
+	color: white;
+}
+
+.icon{
+	background-image: url(../images/logokecil.png);
+width: 20px;
+height: 20px;
+background-size: cover;
+}
+
+.foto-kepsek{
+	height: 340px;
+	width:250px;
+	background-image: url(../images/kepala-sekolah.jpg);
+	margin-left:-10px;
+	background-size: cover;
+	background-position: 0px -20px;
+}
+
+
+.menu-atas{
+	background-color:#fff;
+	background-image:url(../images/menu-bawahbr.gif);
+	border:1px solid #000;
+	padding-top:5px;
+	height:10px;
+	padding-bottom:31px;
+	list-style-type: none;
+}
+.menu-atas li{
+	display:inline;
+	border-right: solid 1px white;
+    float: left;
+}
+.menu-atas li a{
+	color:#0A127A;
+	font-size:14px;
+	font-weight:bold;
+	margin-right:10px;
+	margin-left:5px;
+	text-decoration:none;
+    display: block;
+    padding: 2px 10px;
+	
+}
+.menu-atas li:hover { 
+	background: #99F; 
+	position: relative; 
+}
+.menu-atas li:hover a { 
+	text-decoration: none; }
+.menu-atas li:hover ul {
+    background-color: #006;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 18px;
+    width: 200px;
+}
+
+.menu-atas li:hover ul li { 
+	border: none; 
+	height: 33px; 
+}
+.menu-atas li:hover ul li a {
+    background-color: #76A7F8;
+    border: 1px solid #0917D0;
+    color: #FFF;
+    display: block;
+	font-family:Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    height: 33px;
+    line-height: 20px;
+    padding: 15px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 200px;
+    padding: 3px;
+}
+.menu-atas li:hover ul li a:hover {
+    background: #1682D1;
+    border: solid 1px #00F;
+    color: #FFF;
+    height: 27px;
+    padding: 3px;
+}
+.menu-atas ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+    z-index: 1;
+}
+.gbrberita{
+	float:left;
+	margin: 12px 12px 0 0;
+
+
+}
+.clear{
+	clear:left;
+}
